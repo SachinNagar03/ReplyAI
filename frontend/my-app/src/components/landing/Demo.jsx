@@ -56,7 +56,7 @@ export default function Demo() {
   if (!input.trim() || !output.trim()) return;
 
   try {
-    const response = await fetch(`${API_URL}/api/generate-reply`, {
+    const response = await fetch(`${API_URL}/api/save-reply`, {
       method: "POST",
       headers: {
         "Content-Type": "application/json"
