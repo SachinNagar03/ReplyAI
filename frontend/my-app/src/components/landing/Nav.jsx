@@ -1,5 +1,6 @@
 import { Sparkles } from "lucide-react";
 import "../../styles/Nav.css";
+import { Link } from "react-router-dom";
 
 const links = [
   { href: "#features", label: "Features" },
@@ -24,7 +25,9 @@ export default function Nav() {
               <li key={l.href}><a href={l.href}>{l.label}</a></li>
             ))}
           </ul>
-          <a href="/GenerateReply" className="btn btn-primary btn-md">Try it now</a>
+          <Link to="/GenerateReply" className="btn btn-primary btn-md">
+            Try it now
+          </Link>
         </nav>
       </div>
     </header>

@@ -1,6 +1,7 @@
 import { ArrowRight, Mail, Wand2, Send, Zap } from "lucide-react";
 import "../../styles/Hero.css";
 import { useNavigate } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 export default function Hero() {
   const navigator = useNavigate();
@@ -31,7 +32,11 @@ export default function Hero() {
               ))}
             </div>
             <div className="hero-ctas">
-              <a href="/GenerateReply" className="btn btn-primary btn-lg">Try it now <ArrowRight size={16} /></a>
+
+              <Link to="/GenerateReply" className="btn btn-primary btn-lg">
+                Try it now <ArrowRight size={16} />
+              </Link>
+
               <a href="#how" className="btn btn-outline btn-lg">See how it works</a>
             </div>
             <div className="hero-social">
