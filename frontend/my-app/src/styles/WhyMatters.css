@@ -1,0 +1,33 @@
+.why-grid {
+  margin-top: 3rem;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1rem;
+}
+@media (min-width: 768px) {
+  .why-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (min-width: 1024px) {
+  .why-grid {
+    grid-template-columns: repeat(5, 1fr);
+  }
+}
+.why-card {
+  border-radius: 1rem;
+  padding: 1.25rem;
+  transition: border-color 0.2s;
+}
+.why-card:hover {
+  border-color: hsl(var(--primary) / 0.4);
+}
+.why-title {
+  margin-top: 1rem;
+  font-size: 1rem;
+  font-weight: 600;
+}
+.why-desc {
+  margin-top: 0.5rem;
+  font-size: 0.875rem;
+}

@@ -1,0 +1,54 @@
+.t-grid {
+  margin-top: 3rem;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.25rem;
+}
+@media (min-width: 768px) {
+  .t-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+.t-card {
+  border-radius: 1rem;
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+}
+.t-card blockquote {
+  color: hsl(var(--foreground) / 0.9);
+  line-height: 1.6;
+}
+.t-card figcaption {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  margin-top: auto;
+}
+.t-avatar {
+  height: 2.5rem;
+  width: 2.5rem;
+  border-radius: 9999px;
+  display: grid;
+  place-items: center;
+  color: hsl(var(--background));
+  font-weight: 700;
+}
+.t-primary {
+  background: hsl(var(--primary));
+}
+.t-cyan {
+  background: hsl(var(--accent-cyan));
+}
+.t-pink {
+  background: hsl(var(--accent-pink));
+}
+.t-name {
+  font-weight: 600;
+  font-size: 0.875rem;
+}
+.t-role {
+  font-size: 0.75rem;
+  color: hsl(var(--muted-foreground));
+}
