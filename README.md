@@ -48,7 +48,7 @@ Built end-to-end with a React frontend, an Express API, and MongoDB Atlas for pe
 | **Frontend** | React.js · JavaScript · CSS · Fetch API           |
 | **Backend**  | Node.js · Express.js                              |
 | **Database** | MongoDB Atlas                                     |
-| **AI**       | OpenAI API                                        |
+| **AI**       | OpenAI API      Gemini                            |
 | **Hosting**  | Vercel *(frontend)* · Render *(backend)*          |
 
 ---
