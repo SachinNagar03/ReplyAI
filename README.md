@@ -130,7 +130,7 @@ smart-email-reply-gen/
 ```
 
 ---
-
+<!-- 
 ## 🚀 Local Setup
 
 ### 1. Clone the repository
@@ -171,18 +171,18 @@ VITE_API_URL=http://localhost:5000
 Run the dev server:
 ```bash
 npm run dev
-```
+``` -->
 
 ---
 
-## 🗺️ Roadmap
+<!-- ## 🗺️ Roadmap
 
 - [ ] 🔐 Google OAuth authentication
 - [ ] 🔍 Reply history filtering & search
 - [ ] 🗑️ Delete saved replies
 - [ ] ✏️ Edit saved replies
 - [ ] 🎯 Better prompt customization
-- [ ] 🎨 Rich email formatting
+- [ ] 🎨 Rich email formatting -->
 
 ---
 
@@ -192,8 +192,8 @@ npm run dev
 
 **Sachin Nagar**
 
-[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/your-username)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/your-username)
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/SachinNagar03)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/sachin-nagar-05APR2002/)
 
 <br/>
 
